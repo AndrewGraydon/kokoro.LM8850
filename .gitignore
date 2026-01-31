@@ -1,0 +1,6 @@
+/cpp/ax650n_bsp_sdk
+/cpp/install
+__pycache__
+.vscode
+/cpp/build
+*.wav

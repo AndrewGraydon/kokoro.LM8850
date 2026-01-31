@@ -1,0 +1,16 @@
+kokoro
+soundfile
+misaki[en]
+onnxruntime
+ordered_set
+pypinyin
+cn2an
+jieba
+pyopenjtalk
+fugashi[unidic-lite]
+jaconv
+mojimoji
+gradio==5.47.1
+scipy
+spacy
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl

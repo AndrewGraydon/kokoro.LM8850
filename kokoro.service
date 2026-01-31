@@ -1,0 +1,19 @@
+[Unit]
+Description=Kokoro TTS Service for LLM-8850
+After=network.target
+
+[Service]
+Type=simple
+User=andrew
+WorkingDirectory=/home/andrew/kokoro.axera
+# We can run directly with the env python or use serve.sh.
+# Using serve.sh to ensure environment variables are set if complex activation is needed, 
+# but direct python call is usually cleaner for systemd if paths are absolute.
+# However, the user specifically asked for serve.sh to activate the environment.
+# Let's use serve.sh but ensure it works in non-interactive shell.
+ExecStart=/home/andrew/kokoro.axera/serve.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
