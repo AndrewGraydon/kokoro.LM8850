@@ -35,20 +35,20 @@ This repository contains the implementation of Kokoro TTS optimized for the **M5
 3.  **Setup Environment:**
     Ensure you have the `kokoro_test` environment or equivalent with `axengine` installed.
 
-    # Create a virtual environment and activate it 
+    1. Create a virtual environment and activate it 
     ```bash
     conda create -n kokoro_test python=3.12  
     conda activate kokoro_test  
     ```
     
-    # Install axengine (if not installed)
+    2. Install axengine (if not installed)
     ```bash
     hf download AXERA-TECH/PyAXEngine --local-dir PyAXEngine
     cd PyAXEngine
     pip install axengine-0.1.3-py3-none-any.whl
     ```
     
-    # Install project dependencies
+    3. Install project dependencies
     ```bash
     cd kokoro.LLM850
     pip install -r requirements.txt
