@@ -38,7 +38,7 @@ This repository contains the implementation of Kokoro TTS optimized for the **M5
     1. Create a virtual environment and activate it 
     ```bash
     conda create -n kokoro_test python=3.12  
-    conda activate kokoro_test  
+    conda activate kokoro  
     ```
     
     2. Install axengine (if not installed)
