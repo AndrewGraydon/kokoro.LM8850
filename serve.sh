@@ -10,7 +10,7 @@ else
     exit 1
 fi
 
-conda activate kokoro_test
+conda activate kokoro
 
 # Start the server
 python kokoro_svr.py --port 8803
